@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http'; // Importa HttpClientModule
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from '../app.component';
-import { UserListComponent } from '../user-list/user-list.component'; // Importa tu componente
+import { UserListComponent } from '../user-list/user-list.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserListComponent  // Declara tu componente
+    UserListComponent  
   ],
   imports: [
     BrowserModule,
-    HttpClientModule  // Agrega HttpClientModule a los imports
+    HttpClientModule  
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class UserService {
 
-  private apiUrl = 'https://jsonplaceholder.typicode.com/users';  // URL de ejemplo
+  private apiUrl = 'https://jsonplaceholder.typicode.com/users';  
 
   constructor(private http: HttpClient) { }
 

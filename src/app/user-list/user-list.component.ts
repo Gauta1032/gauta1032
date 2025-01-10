@@ -14,6 +14,6 @@ export class UserListComponent implements OnInit {
   ngOnInit(): void {
     this.http.get<any[]>('http://localhost:3000/api/data').subscribe(data => {
       this.users = data;
-    }); // Asegúrate de cerrar correctamente el paréntesis de 'subscribe'
+    }); 
   }
 }

@@ -7,7 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
-    UserListComponent  // Asegúrate de agregarlo aquí
+    UserListComponent  
   ],
   imports: [
     BrowserModule
